@@ -1,0 +1,20 @@
+# deps / envs
+node_modules/
+venv/
+.venv/
+__pycache__/
+.env
+.env.*
+!.env.example
+
+# data & model artifacts (too big for GitHub)
+*.csv
+*.zip
+ml/uploads/*
+!ml/uploads/.gitkeep
+ml/*.pkl
+
+# build / OS / editor
+dist/
+.DS_Store
+*.code-workspace

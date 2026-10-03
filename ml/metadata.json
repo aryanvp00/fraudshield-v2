@@ -1,0 +1,45 @@
+{
+  "accuracy": 99.9997,
+  "features": [
+    "type_encoded",
+    "amount",
+    "oldbalanceOrg",
+    "newbalanceOrig",
+    "oldbalanceDest",
+    "newbalanceDest",
+    "hour",
+    "is_night",
+    "amount_ratio",
+    "sender_balance_change",
+    "receiver_balance_change",
+    "balance_mismatch",
+    "dest_prev_zero",
+    "orig_emptied"
+  ],
+  "fraud_rate": 0.13,
+  "train_size": 5090096,
+  "test_size": 1272524,
+  "feature_importance": {
+    "type_encoded": 0.03800649914184593,
+    "amount": 0.04972108114716702,
+    "oldbalanceOrg": 0.027826826626291806,
+    "newbalanceOrig": 0.1364740833477158,
+    "oldbalanceDest": 0.007542916904481529,
+    "newbalanceDest": 0.029535986395929876,
+    "hour": 0.02459428973476702,
+    "is_night": 0.0023606649557930998,
+    "amount_ratio": 0.17891928618458602,
+    "sender_balance_change": 0.19963078887155986,
+    "receiver_balance_change": 0.041442269435315635,
+    "balance_mismatch": 0.1220774896153101,
+    "dest_prev_zero": 0.005627046084306673,
+    "orig_emptied": 0.13624077155492967
+  },
+  "type_classes": [
+    "CASH_IN",
+    "CASH_OUT",
+    "DEBIT",
+    "PAYMENT",
+    "TRANSFER"
+  ]
+}
