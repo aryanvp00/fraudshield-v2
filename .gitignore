@@ -18,3 +18,7 @@ ml/*.pkl
 dist/
 .DS_Store
 *.code-workspace
+
+# keep the small trained model files so the server can load them
+!ml/model.pkl
+!ml/label_encoder.pkl
